@@ -16,4 +16,4 @@ import Tools from 'smartools'
 
 ### Array
 
-- arrayEqual([arr1], [arr2]): 判断两个数组是否相等，返回 Boolean 值。
+- `arrayEqual([arr1], [arr2])`: 判断两个数组是否相等，返回 Boolean 值。
