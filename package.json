@@ -4,8 +4,14 @@
   "description": "js 工具库",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Carson",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^21.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
