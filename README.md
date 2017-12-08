@@ -1,8 +1,11 @@
 # smartools
 
-前端 js 工具库
+前端 js 工具库，提高开发效率
 
 ## 安装使用
+
+- 使用npm安装
+- 直接下载 min 目录下的 smartools.min.js 使用，支持 UMD 通用模块规范
 
 ### npm
 
@@ -10,6 +13,16 @@
 
 ```js
 import Tools from 'smartools'
+```
+
+### 浏览器
+
+```js
+<script src="./js/smartools.min.js"></script>
+<script>
+    console.log(smartools)
+    var OS = smartools.getOS()
+</script>
 ```
 
 ## API
