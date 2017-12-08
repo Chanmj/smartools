@@ -17,6 +17,8 @@ const getScrollTop = require('./src/dom/getScrollTop')
 const offset = require('./src/dom/offset')
 const scrollTo = require('./src/dom/scrollTo')
 const setScrollTop = require('./src/dom/setScrollTop')
+const parseQueryString = require('./src/url/parseQueryString')
+const stringfyQueryString = require('./src/url/stringfyQueryString')
 
 module.exports = {
     arrayEqual,
@@ -37,5 +39,7 @@ module.exports = {
     getScrollTop,
     offset,
     scrollTo,
-    setScrollTop
+    setScrollTop,
+    parseQueryString,
+    stringfyQueryString
 }

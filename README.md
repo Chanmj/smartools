@@ -59,3 +59,8 @@ arrayEqual([arr1:Array], [arr2:Array]) ---- `arr1`：第一个参数 arr1(语义
 ### Time
 
 `formatRemainTime([endtime:Date])`: 格式化现在距 ${endTime} 的剩余时间，返回格式 `n天 n小时 n分钟 n秒`
+
+### Url
+
+`parseQueryString([url:String])`: url 参数转对象，default: window.location.href
+`stringfyQueryString([obj:Object])`: 对象序列化
