@@ -77,3 +77,8 @@ arrayEqual([arr1:Array], [arr2:Array]) ---- `arr1`：第一个参数 arr1(语义
 
 `parseQueryString([url:String])`: url 参数转对象，default: window.location.href
 `stringfyQueryString([obj:Object])`: 对象序列化
+
+### String
+
+`digitUppercase([n:Number])`: 现金额转大写
+`trimSpace([str:String], [type:Number])`: 去除空格  type 1-所有空格  2-前后空格  3-前空格 4-后空格
